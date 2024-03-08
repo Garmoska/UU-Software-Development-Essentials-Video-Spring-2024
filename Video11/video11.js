@@ -1,7 +1,7 @@
-const fruits = ["apple", "banana", "orange"];
+const countries = ["France", "Great Britain", "Belgium"];
 
-for(let i = 0; i < fruits.length; i++){
-    console.log(fruits[i]);
+for(let i = 0; i < countries.length; i++){
+    console.log(countries[i]);
 }
 
 console.log("---------------");
@@ -12,16 +12,16 @@ for(let i = 0; i < anotherArray.length; i++){
 }
 
 console.log("---------------");
-fruits.push("grape");
+countries.push("Poland");
 
-for(let i = 0; i < fruits.length; i++){
-    console.log(fruits[i]);
+for(let i = 0; i < countries.length; i++){
+    console.log(countries[i]);
 }
 
 console.log("---------------");
-fruits.pop();
-fruits.shift();
+countries.pop();
+countries.shift();
 
-for(let i = 0; i < fruits.length; i++){
-    console.log(fruits[i]);
+for(let i = 0; i < countries.length; i++){
+    console.log(countries[i]);
 }
