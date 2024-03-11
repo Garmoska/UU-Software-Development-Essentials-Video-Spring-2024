@@ -2,6 +2,7 @@ const inputArray = [71811, 56911, 21285, -20801, 69935, 89201, -27225, -61534, -
 const target = 64189;
 
 function calc() {
+    console.log(`inputArray size: ${inputArray.length}`);
     let start = performance.now();
     const cache = {};
     for (let i = 0; i < inputArray.length; i++) {
