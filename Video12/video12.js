@@ -35,3 +35,14 @@ for (let i = 0; i < welcomeCountries.length; i++) {
 function sayHello(){
     alert("Hello!");
 }
+
+//missed arguments
+function missedArgumentsFunction(a, b, c){
+    console.log(a);
+    console.log(b);
+    console.log(c);
+}
+
+missedArgumentsFunction(10, 20);
+missedArgumentsFunction(10, 20, 30, 40);
+
